@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: rgb(223, 104, 104);
+        }
+        header {
+            font-family: Arial, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+        }
+        nav a {
+            color: darkblue;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        img {
+            border-radius: 50%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+        table {
+            margin: 20px auto;
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 60%;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+            border: 2px solid;
+        }
+        tr:nth-child(1) td:nth-child(1) { border-color: red; }
+        tr:nth-child(1) td:nth-child(2) { border-color: blue; }
+        tr:nth-child(2) td:nth-child(1) { border-color: green; }
+        tr:nth-child(2) td:nth-child(2) { border-color: orange; }
+        tr:nth-child(3) td:nth-child(1) { border-color: purple; }
+        tr:nth-child(3) td:nth-child(2) { border-color: brown; }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        .button-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: green;
+        }
+        .paragraph-section {
+            width: 70%;
+            margin: 20px auto;
+            text-align: justify;
+            color: darkgray;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: #fff;
+        }
+        form {
+            width: 60%;
+            margin: 30px auto;
+            text-align: center;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        input[type="text"], input[type="email"] {
+            width: 80%;
+            padding: 8px;
+            margin: 10px 0;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="background-color: gray; color: darkblue; font-size: 40px;">Welcome To My Webpage</h1>
+        <h2 style="color: green; font-size: 28px;"><b>Learning Web Development</b></h2>
+        <nav>
+            <a href="https://www.example.com/home" style="margin-right: 15px;">Home</a>
+            <a href="https://www.example.com/about" style="margin-right: 15px;">About</a>
+            <a href="https://www.example.com/contact">Contact</a>
+        </nav>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWqb8bnMD-wlA9YiKnD4HLHjlso0qVKSQDnQ&s" alt="Web Development">
+    </header>
+
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Web Design</td>
+            <td>Creating user-friendly layouts and designs</td>
+        </tr>
+        <tr>
+            <td>Web Development</td>
+            <td>Building responsive and interactive websites</td>
+        </tr>
+        <tr>
+            <td>SEO Optimization</td>
+            <td>Improving website visibility in search engines</td>
+        </tr>
+    </table>
+
+    <div class="button-section">
+        <button>Learn More</button>
+    </div>
+
+    <div class="paragraph-section">
+        <p>Welcome to our web development service website! We specialize in designing and building modern, responsive, and user-friendly websites that help businesses grow online. From creating visually appealing layouts to optimizing performance and SEO, we provide complete digital solutions tailored to your needs.</p>
+    </div>
+
+    <form>
+        <h3>Contact Us</h3>
+        <input type="text" placeholder="Enter your name" required><br>
+        <input type="email" placeholder="Enter your email" required><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>&copy; 2025 My Webpage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
