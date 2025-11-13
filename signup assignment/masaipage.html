@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Masai Course Box</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: flex-start;  
+  gap: 20px;
+}
+
+.course-box {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+
+.course-box:hover {
+  background-color: #e63946;
+  color: white;
+  transform: translateY(-5px);
+}
+
+
+.course-header {
+  text-align: center;
+}
+
+.course-header img {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.course-header span {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+.course-title {
+  font-weight: bold;
+  margin-top: 10px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.course-box:hover hr {
+  border-top: 1px solid #fff;
+}
+
+.course-info {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.buttons button {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.learn-more {
+  background-color: #fff;
+  color: #e63946;
+}
+
+.brochure {
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+}
+
+
+.course-box:hover .learn-more {
+  background-color: white;
+  color: #e63946;
+}
+
+.course-box:hover .brochure {
+  border-color: white;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://iimsirmaur.ac.in/sites/default/files/inline-images/Logo%20-%20Indian%20Institute%20of%20Management%20Sirmaur.jpg" alt="logo">
+      <span>IMI Sirmaur</span>
+    </div>
+    <div class="course-title">
+      EDGE: Essentials of Data Analytics, Gen AI & Execution
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test: 12th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://media.licdn.com/dms/image/v2/D560BAQEXhFcM5OICsw/company-logo_200_200/company-logo_200_200/0/1709200668832/iit_patna_vishlesan_i_hub_foundation_logo?e=2147483647&v=beta&t=AwURIDDVO3ESlSwii1lZSGNLAFVQhbhRyMO1VUX63fA" alt="logo">
+      <span>Vishleen i-Hub IIT Patana</span>
+    </div>
+    <div class="course-title">
+      Product Management and Agentic AI
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test - 12th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://media.licdn.com/dms/image/v2/D560BAQEXhFcM5OICsw/company-logo_200_200/company-logo_200_200/0/1709200668832/iit_patna_vishlesan_i_hub_foundation_logo?e=2147483647&v=beta&t=AwURIDDVO3ESlSwii1lZSGNLAFVQhbhRyMO1VUX63fA" alt="logo">
+      <span>Vishleen i-Hub IIT Patana</span>
+    </div>
+    <div class="course-title">
+      Certification Program in Data Analytics with Gen & Agentic AI
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test - 9th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+  
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://www.iimtrichy.ac.in/themes/iimt_custom_theme/images/iimt_logo_icon.png" alt="logo">
+      <span>IIM Trichy</span>
+    </div>
+    <div class="course-title">
+      Product Management in the Agentic AI Era
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test - 12th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNP1pO0v3n_sivYuhwVfQK2ECntabe_QgsWg&s" alt="logo">
+      <span>iHUB DivyaSampark,IIT Roorkee</span>
+    </div>
+    <div class="course-title">
+      Future-Ready Product Management with Applied AI Program
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test - 12th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+  <div class="course-box">
+    <div class="course-header">
+      <img src="https://d3udzp2n88cf0o.cloudfront.net/images/NCDOE_Logo.png" alt="logo">
+      <span>NMIMS CDOE</span>
+    </div>
+    <div class="course-title">
+      Online MBA
+    </div>
+    <hr>
+    <div class="course-info">
+      06 months | Online <br>
+      Qualifier Test: 9th Nov 2025
+    </div>
+    <div class="buttons">
+      <button class="learn-more">Learn more →</button>
+      <button class="brochure">Brochure →</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
