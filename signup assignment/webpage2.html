@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Growth and Society</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #98b668;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    nav {
+      background-color: #2e5e47;
+      padding: 10px;
+    }
+
+    nav > ul > li {
+      display: inline;
+      margin-right: 15px;
+      border-bottom: 2px solid blue;
+      list-style: none;
+    }
+
+    nav ul > li > a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    li + li {
+      border-left: 1px solid #38763c;
+      padding-left: 15px;
+    }
+
+    nav + h2 {
+      color: rgb(106, 55, 64);
+      font-size: 24px;
+    }
+
+    .content-area {
+      display: flex;
+      gap: 20px;
+    }
+
+    main {
+      flex: 3;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    main > h2 {
+      color: darkblue;
+      margin-top: 10px;
+    }
+
+    h2 + article {
+      background-color: white;
+      padding: 15px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+    }
+
+    article h3 {
+      color: darkred;
+    }
+
+    article + article {
+      margin-top: 15px;
+    }
+
+    main p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: gray;
+    }
+
+    article h3 ~ p {
+      font-style: italic;
+      color: #2e5e47;
+    }
+
+    aside {
+      flex: 1;
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    aside > h2 {
+      color: darkgreen;
+    }
+
+    aside ul li {
+      margin: 8px 0;
+      color: #2e5e47;
+    }
+
+    aside ul > li + li {
+      color: darkblue;
+    }
+
+    footer {
+      background-color: #2e5e47;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    footer > p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2>Personal Growth and Society</h2>
+
+  <div class="content-area">
+    <main>
+      <h2>Understanding Personal Growth</h2>
+
+      <article>
+        <h3>Why Personal Growth Matters</h3>
+        <p>Personal growth is the process of improving ourselves through learning, reflection, and self-awareness. It helps us become better versions of who we are and gives us the confidence to face challenges in life.</p>
+      </article>
+
+      <article>
+        <h3>Connection Between Growth and Society</h3>
+        <p>When people grow personally, society becomes stronger too. Each person contributes new ideas, kindness, and positive change. A developed society starts with individuals who are willing to learn, adapt, and help others grow.</p>
+      </article>
+    </main>
+
+    <aside>
+      <h2>Recent Post</h2>
+      <ul>
+        <li>Developing a Growth Mindset</li>
+        <li>Building Confidence in Daily Life</li>
+        <li>How Society Shapes Our Values</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p> &copy; 2023 Priyanka</p>
+  </footer>
+</body>
+</html>
