@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 80px;
+            background-color: #180c0c;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav{
+            max-width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo{
+            font-size:40px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .logo span{
+            color: #2f86ea;
+        }
+        .nav-links ul{
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links ul li {
+            text-decoration: none;
+            color: #f2ecec;
+            font-size: 16px;
+            padding: 8px 12px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+        }
+        .nav-links ul li:hover{
+            background-color: #7c76e9;
+            color: #fff;
+            border-radius: 4px;
+        }
+        .Buy{
+            color: #2f86ea;
+            font-size: 24px;
+            
+        }
+        .Buy:hover{
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <h1 class="logo"><span>Be</span>blog</h1>
+        <ul class="nav-links">
+           <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Word desing</a></li>
+            <li><a href="#">WordPress</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">BeAdvice</a></li>
+            <li><a href="#" class="Buy">Buy Be Theme</a></li>
+           </ul>
+    </nav>
+   </header>
+</body>
+</html>
